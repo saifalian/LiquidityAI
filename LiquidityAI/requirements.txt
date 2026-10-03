@@ -1,0 +1,13 @@
+opencv-python
+Pillow
+pytesseract
+pyautogui
+pygetwindow
+pywin32
+mss
+river
+scikit-learn
+numpy
+pandas
+matplotlib
+PyQt5

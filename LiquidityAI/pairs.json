@@ -1,0 +1,38 @@
+[
+    {
+        "name": "XRPUSDT",
+        "slider_min": 30,
+        "slider_max": 50,
+        "slider_img": "C:/Users/SAIF/Pictures/Screenshots/Screenshot 2026-03-10 204242.png",
+        "set_slider_min": false,
+        "set_slider_max": true,
+        "slider_y_offset": 0,
+        "slider_click_y": 223,
+        "use_hardcoded_search": false,
+        "macro_name": "bibi",
+        "macro_names": [
+            "bibi"
+        ],
+        "macro_runs": {
+            "bibi": 1,
+            "cryp": 1
+        }
+    },
+    {
+        "name": "BNBUSDT",
+        "slider_min": 0,
+        "slider_max": 100,
+        "slider_img": "",
+        "set_slider_min": true,
+        "set_slider_max": true,
+        "macro_names": [
+            "cryp"
+        ],
+        "macro_runs": {
+            "bibi": 1,
+            "cryp": 1
+        },
+        "macro_name": "cryp",
+        "use_hardcoded_search": false
+    }
+]

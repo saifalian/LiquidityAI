@@ -1,0 +1,61 @@
+{
+    "cryp": [
+        {
+            "delay": 0.5,
+            "type": "click",
+            "x": 541,
+            "y": 1060
+        },
+        {
+            "delay": 3.5,
+            "type": "click",
+            "x": 1488,
+            "y": 173
+        },
+        {
+            "delay": 1.5,
+            "type": "click",
+            "x": 145,
+            "y": 74
+        },
+        {
+            "delay": 3.0,
+            "text": "{pair}",
+            "type": "type"
+        },
+        {
+            "delay": 15,
+            "type": "click",
+            "x": 57,
+            "y": 121
+        },
+        {
+            "delay": 0.5,
+            "type": "click",
+            "x": 1776,
+            "y": 226
+        },
+        {
+            "delay": 0.5,
+            "type": "center_chart"
+        },
+        {
+            "delay": 0.5,
+            "end_x": 1889,
+            "end_y": 480,
+            "start_x": 1891,
+            "start_y": 390,
+            "type": "swipe"
+        }
+    ],
+    "bibi": [
+        {
+            "delay": 1.0,
+            "type": "find_coinglass"
+        },
+        {
+            "delay": 1.0,
+            "type": "deepseek_2nd"
+        }
+    ]
+}

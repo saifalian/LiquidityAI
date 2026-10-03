@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Runtime/debug output
+**/output/
+**/logs/
+**/debug_*/
+**/debug*.png
+**/screenshot_test.png
+**/Screenshot*.png
+*.log
+
+# Large/local installers
+*.exe
+
+# Local secrets/config overrides
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+

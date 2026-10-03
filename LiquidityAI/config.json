@@ -1,0 +1,31 @@
+{
+  "coinglass_exe": "",
+  "pairs": [
+    "XRPUSDT",
+    "BTCUSDT"
+  ],
+  "scan_interval_seconds": 3,
+  "threshold_k": 1.5,
+  "confidence_min": 0.6,
+  "log_dir": "./logs",
+  "heatmap_bbox": {
+    "top": 200,
+    "left": 300,
+    "width": 800,
+    "height": 500
+  },
+  "slider_bbox": {
+    "top": 150,
+    "left": 600,
+    "width": 200,
+    "height": 20
+  },
+  "_slider_click_y_help": "Set slider_click_y to the exact SCREEN Y pixel of the slider bar. Hover over the slider in Coinglass, check coords with a tool like MousePos, then enter the number below.",
+  "slider_click_y": null,
+  "price_axis_bbox": {
+    "top": 200,
+    "left": 1100,
+    "width": 100,
+    "height": 500
+  }
+}
