@@ -1,19 +1,21 @@
 # LiquidityAI
 
-LiquidityAI is a Python research and automation tool for crypto liquidity and heatmap analysis. It includes screen capture, OCR, Coinglass automation helpers, liquidity analysis, prediction modules, threshold learning, trade tracking, and overlay/UI components.
+LiquidityAI is a Python project for studying crypto liquidity and heatmaps.
 
-The main application source lives under the nested `LiquidityAI` directory.
+In simple words, this app is made to capture market-related screen data, read parts of the screen with OCR, analyze liquidity areas, and help track possible trading ideas. It also includes automation helpers and UI files.
 
-## Features
+The main application code is inside the nested `LiquidityAI` folder.
 
-- Liquidity heatmap capture and analysis
-- OCR and screen capture pipeline
-- Coinglass automation helpers
-- Prediction and online model modules
-- Threshold learning and feature extraction
-- Trade tracking and log analysis
-- Overlay and macro-builder UI modules
-- Configurable trading pairs and macros
+## What This App Can Do
+
+- Capture screen information.
+- Read text from the screen using OCR.
+- Analyze liquidity heatmaps.
+- Work with Coinglass-style automation helpers.
+- Track trades and logs.
+- Use prediction and learning modules for research.
+- Configure trading pairs and macros.
+- Show overlay and macro-builder UI modules.
 
 ## Tech Stack
 
@@ -51,7 +53,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## Notes
+## Safety Notes
 
-This is an experimental market-analysis and automation project. Validate all outputs manually before using them for trading decisions.
+This is an experimental research project. It should not be trusted blindly for trading.
 
+Always check the output manually before making any trading decision. This project is not financial advice.
