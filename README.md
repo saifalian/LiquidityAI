@@ -12,6 +12,28 @@ LiquidityAI is a Python project for studying crypto liquidity and heatmaps. It u
 
 The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
 
+## Purpose And Idea
+
+**Purpose:** The purpose of this project is to study crypto liquidity and heatmap information from screen captures.
+
+**Idea:** The idea is to capture market-related screen data, read important text with OCR, detect liquidity zones, and keep notes or trade ideas for research.
+
+**Why I made it:** I made this to learn how OCR, screen capture, image processing, and trading research can work together in a Python project.
+
+## Screenshots
+
+### Real liquidity window capture
+
+![Real liquidity window capture](docs/screenshots/real-liquidity-window.png)
+
+### Real liquidity axis capture
+
+![Real liquidity axis capture](docs/screenshots/real-liquidity-axis.png)
+
+### Project preview
+
+![Project preview](docs/screenshots/preview.svg)
+
 ## Main Features
 
 - Capture screen information
@@ -60,10 +82,6 @@ pairs.json     Trading pair list
 3. Install requirements.txt.
 4. Run python main.py.
 5. Calibrate screen areas before using analysis tools.
-
-## Screenshot
-
-The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
 ## Current Status
 
