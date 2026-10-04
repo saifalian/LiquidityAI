@@ -1,60 +1,78 @@
 # LiquidityAI
 
-LiquidityAI is a Python project for studying crypto liquidity and heatmaps.
+![LiquidityAI preview](docs/screenshots/preview.svg)
 
-In simple words, this app is made to capture market-related screen data, read parts of the screen with OCR, analyze liquidity areas, and help track possible trading ideas. It also includes automation helpers and UI files.
+## Short Description
 
-The main application code is inside the nested `LiquidityAI` folder.
+Capture liquidity screen data, read text, and study possible trading zones.
 
-## What This App Can Do
+## About This Project
 
-- Capture screen information.
-- Read text from the screen using OCR.
-- Analyze liquidity heatmaps.
-- Work with Coinglass-style automation helpers.
-- Track trades and logs.
-- Use prediction and learning modules for research.
-- Configure trading pairs and macros.
-- Show overlay and macro-builder UI modules.
+LiquidityAI is a Python project for studying crypto liquidity and heatmaps. It uses screen capture, OCR, image processing, configuration files, and analysis modules to help research possible trading ideas.
+
+The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
+
+## Main Features
+
+- Capture screen information
+- Read screen text with OCR
+- Analyze heatmap/liquidity areas
+- Use Coinglass-style automation helpers
+- Track trades and logs
+- Configure pairs and macros
+- Use prediction/learning modules for research
 
 ## Tech Stack
 
 - Python
-- OCR/screen capture utilities
-- Image processing modules
-- Local JSON configuration
-- Batch launcher scripts
+- OCR
+- Screen capture
+- Image processing
+- JSON config
 
-## Project Layout
+## Project Location
+
+Main local folder:
+
+```text
+D:\PROJECTS\LiquidityAI\LiquidityAI
+```
+
+GitHub repository:
+
+https://github.com/saifalian/LiquidityAI
+
+## Project Structure
 
 ```text
 LiquidityAI/
-├── main.py
-├── ui_main.py
-├── ui_macro_builder.py
-├── modules/
-│   ├── liquidity_analyzer.py
-│   ├── prediction_engine.py
-│   ├── screen_capture.py
-│   ├── ocr_reader.py
-│   └── coinglass_automator.py
-├── config.json
-├── pairs.json
-└── requirements.txt
+main.py        Main launcher
+ui_main.py     Main UI file
+modules/       Capture, OCR, liquidity, prediction, and automation modules
+config.json    App configuration
+pairs.json     Trading pair list
 ```
 
-## Setup
+## How To Run
 
-```powershell
-cd LiquidityAI
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-python main.py
-```
+1. Go into the LiquidityAI folder.
+2. Create and activate a Python virtual environment.
+3. Install requirements.txt.
+4. Run python main.py.
+5. Calibrate screen areas before using analysis tools.
 
-## Safety Notes
+## Screenshot
 
-This is an experimental research project. It should not be trusted blindly for trading.
+The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
-Always check the output manually before making any trading decision. This project is not financial advice.
+## Current Status
+
+This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
+
+## Safety Note
+
+Use as a research helper only. Always check results manually before making any trading decision.
+
+## License
+
+No license file is included yet. Add a license before using this project as an open-source project.
